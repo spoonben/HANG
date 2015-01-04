@@ -2,8 +2,8 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     watch: {
-      files: ['<%= jshint.files %>'],
-      tasks: ['jshint']
+      files: ['templates/**/*'],
+      tasks: ['build']
     },
     assemble: {
       options: {
@@ -22,6 +22,8 @@ module.exports = function(grunt) {
         src: "templates/*.hbs",
         dest: "build/",
         options: {
+          layout: 'templates/layouts/default.hbs',
+          partials: 'templates/partials/**/*.hbs',
           assets: "build/assets"
         }
       }
