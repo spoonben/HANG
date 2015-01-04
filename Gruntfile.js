@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     copy: {
       build: {
         files: [
-          {expand: true, src: 'assets/**/*.png', dest: 'build'},
+          {expand: true, src: 'assets/css/*.css', dest: 'build'},
           {expand: true, src: 'assets/js/*.js', dest: 'build'}
         ]
       }
