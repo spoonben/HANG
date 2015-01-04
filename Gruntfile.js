@@ -40,11 +40,13 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('assemble' )
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.loadNpmTasks('assemble' );
   grunt.loadNpmTasks('grunt-newer' );
   
   grunt.registerTask('default', ['newer:assemble' ]);
-  grunt.registerTask('build', ['assemble']);
+  
+  grunt.registerTask('build', ['assemble', 'copy:build']);
 
 };
