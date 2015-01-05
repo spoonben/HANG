@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     watch: {
-      files: ['templates/**/*'],
+      files: ['templates/**/*', 'assets/css/*'],
       tasks: ['build']
     },
     assemble: {
