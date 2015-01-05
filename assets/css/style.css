@@ -37,7 +37,7 @@ nav a:hover {
 	background:#79BD8F;
 }
 .content {
-	padding:5px;
+	padding:20px;
 }
 .content h1 {
 	color:#FF6138;
@@ -48,6 +48,7 @@ nav a:hover {
 .site-title {
 	background:#00A388;
 	color:#FFF;
+	font-weight: 100;
 	margin:0;
 	padding:5px;
 }
@@ -55,8 +56,14 @@ nav a:hover {
 	width:100%;
 	display:block;
 	background: #dbdcde;
-	height:100px;
+	height:50px;
 	position: absolute;
 	bottom:0;
 	padding:10px;
+}
+.footer .centered {
+	margin:0 auto;
+	width:200px;
+	padding:10px;
+	font-size: .5em;
 }
