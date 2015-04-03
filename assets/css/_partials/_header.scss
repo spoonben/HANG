@@ -1,0 +1,28 @@
+.header{
+	.logo {
+		width:60px;
+		float:left;
+		display:block;
+		padding:20px 0;
+		margin-left:80px;
+	}
+	.notifications {
+		background: #006341;
+		min-height: 40px;
+		color:#FFF;
+		.notification{
+			letter-spacing: -.5px;
+			font-size: 14px;
+			padding:13px 25px;
+			text-transform: uppercase;
+			margin-right:100px;
+			background:#005106;
+			float:right;
+			a {
+				text-transform: none;
+				color:#FFF;
+				margin-left:10px;
+			}
+		}
+	}
+}
